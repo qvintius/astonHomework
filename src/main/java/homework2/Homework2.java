@@ -2,9 +2,8 @@ package homework2;
 
 import java.util.*;
 
-public class Homework2<T> {
+public class Homework2 {
     public static void main(String[] args) {
-
         MyArrayList myArrayList = new MyArrayList<Integer>(10);
         Random random = new Random();
         for (int i = 0; i < 10; i++) {
